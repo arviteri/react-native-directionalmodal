@@ -23,7 +23,7 @@ import { StyleSheet, Text, View, Dimensions, Animated } from 'react-native';
 const ANIMATED_DEFAULT = true;
 const ANIMATION_VALUE_HORIZONTAL = Dimensions.get('window').width*2;
 const ANIMATION_VALUE_VERTICAL = Dimensions.get('window').height*2;
-const ANIMATION_TIME_DEFAULT = 500;
+const ANIMATION_TIME_DEFAULT = 300;
 const ORIENTATION_DEFAULT = 'PORTRAIT'; // Values can be 'PORTRATIN' or 'LANDSCAPE'
 const TRANSPARENT_DEFAULT = false;
 const defaultProps = {
